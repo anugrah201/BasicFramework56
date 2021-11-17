@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite parallel="false" name="Suite">
+  <test name="Test">
+    <classes>
+    <!--  NOTE : Please remember that this is actually SuiteRunner like in Jnuit
+    In Junit we create as class but here we create as xml file -->
+      <class name="selenium.LoginTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
